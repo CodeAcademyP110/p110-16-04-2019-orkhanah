@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="drag-zone">
+                    <div class="item"><img id="item1" draggable="true" data-type="animal" src="img/item4.jpg" alt=""></div>
+                    <div class="item"><img id="item2" draggable="true" data-type="animal" src="img/item2.jpg" alt=""></div>
+                    <div class="item"><img id="item3" draggable="true" data-type="vegetable" src="img/item12.jpg" alt=""></div>
+                    <div class="item"><img id="item4" draggable="true" data-type="fruit" src="img/item6.png" alt=""></div>
+                    <div class="item"><img id="item5" draggable="true" data-type="fruit" src="img/item7.png" alt=""></div>
+                    <div class="item"><img id="item6" draggable="true" data-type="animal" src="img/item1.png" alt=""></div>
+                    <div class="item"><img id="item7" draggable="true" data-type="fruit" src="img/item5.png" alt=""></div>
+                    <div class="item"><img id="item8" draggable="true" data-type="vegetable" src="img/item10.png" alt=""></div>
+                    <div class="item"><img id="item9" draggable="true" data-type="animal" src="img/item3.png" alt=""></div>
+                    <div class="item"><img id="item10" draggable="true" data-type="vegetable" src="img/item11.jpg" alt=""></div>
+                    <div class="item"><img id="item11" draggable="true" data-type="fruit" src="img/item8.png" alt=""></div>
+                    <div class="item"><img id="item12" draggable="true" data-type="vegetable" src="img/item9.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="drop-zone">
+                    <p>Animals</p>
+                    <div data-type="animal" class="item-holder"></div>
+
+                    <p>Fruits</p>
+                    <div data-type="fruit" class="item-holder"></div>
+
+                    <p>Vegetables</p>
+                    <div data-type="vegetable" class="item-holder"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="lib/main.js"></script>
+</body>
+
+</html>

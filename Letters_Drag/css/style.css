@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #E0E1E1;
+    height: 5000px;
+    /* color: white; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.drag-zone, .drop-zone{
+    border: 1px solid #ababab;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.letter{
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px;
+    cursor: move;
+}
+.letter-holder{
+    width: 45%;
+    margin: 20px;
+    height: 200px;
+    border: 1px dashed brown;
+    border-radius: 20px;
+    display: flex;
+}
+.letter-holder p{
+    display: inline;
+    text-align: center;
+    text-transform: uppercase;
+}

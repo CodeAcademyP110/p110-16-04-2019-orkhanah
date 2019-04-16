@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #E0E1E1;
+    height: 5000px;
+    /* color: white; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ababab;
+    border-radius: 10px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    cursor: move;
+}
+.droparea{
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #ababab;
+    border-radius: 10px;
+    margin-top: 100px;
+}
